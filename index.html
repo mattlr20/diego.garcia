@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hello Diego</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="overlay"></div>
+    <div class="scanline"></div>
+    <div class="wrapper">
+        <div class="content clearfix">
+
+            <header class="site clearfix">
+                <div class="col one">
+                    <img src="http://www.mackrichardson.com/dev/pixelspace/remote-images/logo-v.jpg"
+                        alt="591 Industries" width="740" height="729" id="logo-v" />
+                </div>
+                <div class="col two">
+                    <h4>591 Industries (tm) <br /> <b>H</b>euristically <b>E</b>ncrypted <b>R</b>eal-Time
+                        <b>O</b>perating <b>S</b>ystem (HEROS)</h4>
+                    <p>----------------------------------------</p>
+                    <p>HEROS v 1.0.0</p>
+                    <p>(c)2015 591 Industries</p>
+                    <p>- Server 591 -</p>
+                </div>
+            </header>
+
+            <p>System Administrator Integrated Message System (SAIMS)</p>
+            <p>System Administrator (SYSADM) - Unknown</p>
+
+            <nav class="site clear">
+                <ul>
+                    <li><a href="." title="">Reboot System</a></li>
+                </ul>
+            </nav>
+
+            <p class="clear"><br /></p>
+
+            <p>Hello Diego. We've been tracking your every move.</p><br />
+
+            <p>Welcome to the System Administrator Integrated Message System (SAIMS). Fill out the fields below and
+                press the SUBMIT button. Answer correctly and you will be rewarded. Incorrect answers will result in immediate termination.
+            </p><br />
+
+            <form action="https://formspree.io/richardson.webdev@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Hello Diego" />
+                <input type="hidden" name="_next" value="end.html" />
+                <label>Is Fallout 76 the best game ever? >></label><input type="text" /><br />
+                <label>Why is Playstation better than Xbox? >></label><input type="text" /><br />
+                <label>Is Shadow a dog? >></label><input type="text" /><br />
+                <label>Is Diego a bagel? >></label><input type="text" /><br />
+                <label>Why is Mayu so awesome? >></label><textarea id="text" rows="1"></textarea><br /><br /><br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
