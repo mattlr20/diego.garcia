@@ -51,11 +51,12 @@
             <form action="https://formspree.io/richardson.webdev@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="Hello Diego" />
                 <input type="hidden" name="_next" value="end.html" />
-                <label>Is Fallout 76 the best game ever? >></label><input type="text" /><br />
-                <label>Why is Playstation better than Xbox? >></label><input type="text" /><br />
-                <label>Is Shadow a dog? >></label><input type="text" /><br />
-                <label>Is Diego a bagel? >></label><input type="text" /><br />
-                <label>Why is Mayu so awesome? >></label><textarea id="text" rows="1"></textarea><br /><br /><br />
+                <label>Email (Required) >></label><input type="email" name="Email" value="" required />
+                <label>Is Fallout 76 the best game ever? >></label><input type="text" name="q1" /><br />
+                <label>Why is Playstation better than Xbox? >></label><input name="q2" type="text" /><br />
+                <label>Is Shadow a dog? >></label><input type="text" name="q3" /><br />
+                <label>Is Diego a bagel? >></label><input type="text" name="q4" /><br />
+                <label>Why is Mayu so awesome? >></label><textarea id="text" name="q5" rows="1"></textarea><br /><br /><br />
                 <input type="submit" value="Submit" />
             </form>
         </div>
